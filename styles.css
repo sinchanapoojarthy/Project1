@@ -1,0 +1,192 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+  border:0px;
+font-family:'fantasy';
+}
+
+.hello{
+position:absolute;
+height:auto;
+left:0px;
+width:70px;
+top:4.3%;
+}
+.logo{
+text-indent:.999999px;
+background:url('comp.jpg');
+width:960px;
+height:148px;
+color:white;
+
+}
+
+.navigation li:nth-child(1) a {
+    color: white;
+}
+
+.navigation li:nth-child(2) a {
+    color: white;
+}
+.navigation li:nth-child(3) a {
+    color: white;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   float:right;
+position:relative;
+}
+
+.navigation li {
+display:block;
+      top:0;
+   right:260;
+    display: list-item;
+    margin-left: 660px;
+text-align:left;
+position:absolute;
+}
+
+.navigation li:nth-child(1) {
+    top:-35px;
+    right:660;
+color:white;
+}
+
+.navigation li:nth-child(2) {
+    top: -16px; /* Adjust the top value to prevent overlap */
+    right:660;
+color:white;
+
+}
+
+.navigation li:nth-child(3) {
+    top: 5px; /* Adjust the top value to prevent overlap */
+    right: 660;
+color:white;
+
+
+}
+
+.search-icon,.menu-icon,
+.cart-icon {
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5050;
+    color: #FFffFF;
+    padding: 20px 30px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search-icon {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.cart-icon {
+    background-color: #FF5733;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.about-us {
+    text-align: center;
+    background-color: #F4F4F4;
+    padding: 20px;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom:-15px;
+    color: #0077B6;
+}
+
+.about-us p {
+    font-size: 16px;
+    color: #333333;
+}
+
+.internships {
+    margin: 20px;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.internship {
+    border: 1px solid #DDD;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+
+.internship-details {
+    text-align: center;
+}
+
+ul ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: green;
+    text-align: center; /* Center-align the internship names */
+}
+
+
+.apply-button {
+    background-color: red;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+    background-color: #FF00FF;
+}
+
+
+
+
